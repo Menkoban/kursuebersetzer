@@ -7,9 +7,10 @@ man in Moodle hochlädt.
 
 ## 1. Starten
 
-1. Den Ordner `Kursuebersetzer` an einen festen Ort entpacken, z. B.
+1. Die Zip-Datei von https://github.com/Menkoban/kursuebersetzer/releases/latest herunterladen.
+2. Den Ordner `Kursuebersetzer` an einen festen Ort entpacken, z. B.
    `C:\Users\<Name>\AppData\Local\Programs\Kursuebersetzer`.
-2. `Kursuebersetzer.exe` doppelklicken. Es öffnet sich ein eigenes Fenster.
+3. `Kursuebersetzer.exe` doppelklicken. Es öffnet sich ein eigenes Fenster.
    *Tipp:* Rechtsklick auf die .exe → „Senden an“ → „Desktop (Verknüpfung erstellen)“.
 
 **Windows-Warnung „Der Computer wurde durch Windows geschützt“:** Das Programm ist (noch)

@@ -18,6 +18,8 @@ vertonten Videos, die vor der Ausgabe probeweise in ein echtes Moodle eingespiel
 - Probe-Einspielung in ein lokales Moodle 4.5 („geht es hoch?“)
 - Jede Schule nutzt ihre **eigenen** Zugänge; Schlüssel bleiben auf dem Rechner
 
+**⬇ Herunterladen:** [Kursuebersetzer-1.0.0-Windows.zip](https://github.com/Menkoban/kursuebersetzer/releases/latest) – entpacken, `Kursuebersetzer.exe` starten.
+
 **Für Lehrkräfte:** siehe [ANLEITUNG.md](ANLEITUNG.md) – Herunterladen, Starten, Zugänge, erster Kurs.
 **Datenschutz:** im Programm unter „Datenschutz“ (mit Vorlage für das Verzeichnis der
 Verarbeitungstätigkeiten). Kein Rechtsrat.
