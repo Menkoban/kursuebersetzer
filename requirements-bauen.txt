@@ -1,0 +1,5 @@
+-r requirements.txt
+pywebview>=6.0
+pyinstaller>=6.10
+pillow>=10.0
+babel>=2.14

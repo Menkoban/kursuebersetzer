@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutz – Kursübersetzer</title>
+<link rel="stylesheet" href="app.css">
+<style>
+  .blatt { max-width: 900px; margin: 0 auto; padding: 28px 24px 64px; }
+  .blatt h1 { font-size: 28px; margin-bottom: 6px; }
+  .blatt h2 { font-size: 20px; margin: 28px 0 10px; }
+  .blatt table { width: 100%; border-collapse: collapse; background: var(--karte); border-radius: 12px; overflow: hidden; font-size: 15px; }
+  .blatt th, .blatt td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--linie); }
+  .blatt th { background: var(--gruen-hell); }
+  .blatt .kasten { background: var(--orange-hell); border-radius: 12px; padding: 12px 16px; margin: 14px 0; }
+  .blatt .leiste { display: flex; gap: 10px; flex-wrap: wrap; margin: 18px 0; }
+  .vvt td:first-child { width: 34%; font-weight: 700; }
+  @media print { .leiste, .nur-bildschirm { display: none; } body { background: #fff; } .blatt { padding: 0; } }
+</style>
+</head>
+<body>
+<div class="blatt">
+  <p class="nur-bildschirm"><a href="/">← zurück zum Kursübersetzer</a></p>
+  <h1>Datenschutz beim Kursübersetzer</h1>
+  <p class="leise">Kein Rechtsrat. Verantwortlich für die Verarbeitung ist die Schule, vertreten durch die
+    Schulleitung. Bitte vor dem ersten Einsatz mit der oder dem schulischen Datenschutzbeauftragten abstimmen.</p>
+
+  <h2>Was verlässt den Rechner – und wohin?</h2>
+  <table>
+    <tr><th>Schritt</th><th>Dienst</th><th>Was wird gesendet</th><th>Wo</th></tr>
+    <tr><td>Kurs einlesen, Videos zusammensetzen, Moodle-Prüfung, Spracherkennung</td><td>keiner – läuft auf diesem Rechner</td><td>–</td><td>lokal</td></tr>
+    <tr><td>Texte übersetzen</td><td>gewählter Anbieter: Anthropic (Claude) oder OpenRouter oder eigener Dienst</td><td>Kurstexte, Testfragen, Sprechtexte der Videos</td><td>Anthropic: USA/EU-Vertragspartner Anthropic Ireland; OpenRouter: USA; eigener Dienst: dort, wo er läuft</td></tr>
+    <tr><td>Vorlesen (Microsoft-Stimme)</td><td>Edge-Vorlesedienst <em>oder</em> Azure Speech</td><td>übersetzte Sprechtexte</td><td>Microsoft; bei Azure die gewählte Region (z. B. Frankfurt)</td></tr>
+    <tr><td>Lippensynchrone Videos (optional)</td><td>HeyGen</td><td>die Originalvideos – <strong>mit Gesicht und Stimme der gezeigten Person</strong></td><td>USA</td></tr>
+  </table>
+
+  <div class="kasten"><strong>Darauf besonders achten:</strong>
+    <ul>
+      <li>Kurstexte sollten keine personenbezogenen Daten enthalten (z. B. Namen von Lehrkräften in Kursbereichen). Solche Texte vor dem Übersetzen entfernen oder anonymisieren.</li>
+      <li>Videos mit erkennbaren Personen nur mit deren Einwilligung an HeyGen senden.</li>
+      <li>Wo möglich den Vorlese-Weg <strong>Azure Speech</strong> mit EU-Region wählen; der kostenlose Edge-Weg ist von Microsoft nicht offiziell für andere Programme freigegeben.</li>
+      <li>Die Zugänge (API-Schlüssel) gehören der Schule. Sie liegen nur auf diesem Rechner in <code>%LOCALAPPDATA%\Kursuebersetzer\einstellungen.json</code>.</li>
+    </ul>
+  </div>
+
+  <h2>Vorlage: Eintrag im Verzeichnis der Verarbeitungstätigkeiten (Art. 30 DSGVO)</h2>
+  <p class="leise">Zum Ausdrucken und Ausfüllen durch die Schule. Grau Geschriebenes ersetzen.</p>
+  <table class="vvt">
+    <tr><td>Bezeichnung der Verarbeitung</td><td>Übersetzung von Moodle-Kursen (z. B. Sicherheitsunterweisungen) mit dem Kursübersetzer</td></tr>
+    <tr><td>Verantwortliche Stelle</td><td><span class="leise">Name und Anschrift der Schule, Schulleitung</span></td></tr>
+    <tr><td>Datenschutzbeauftragte/r</td><td><span class="leise">Name, Kontakt</span></td></tr>
+    <tr><td>Zweck</td><td>Bereitstellung von Lernmaterialien in weiteren Sprachen für Schülerinnen und Schüler mit geringen Deutschkenntnissen</td></tr>
+    <tr><td>Kategorien betroffener Personen</td><td><span class="leise">in der Regel keine; ggf. Lehrkräfte, die in Kursvideos zu sehen/hören sind</span></td></tr>
+    <tr><td>Kategorien von Daten</td><td>Kurstexte und Testfragen (ohne Personenbezug); ggf. Bild und Stimme von Lehrkräften in Videos</td></tr>
+    <tr><td>Empfänger / Auftragsverarbeiter</td><td><span class="leise">zutreffende ankreuzen:</span> ☐ Anthropic (Claude-API) ☐ OpenRouter ☐ Microsoft Azure Speech (Region: ……) ☐ Microsoft Edge-Vorlesedienst ☐ HeyGen</td></tr>
+    <tr><td>Übermittlung in Drittländer</td><td><span class="leise">USA bei Anthropic, OpenRouter, HeyGen – Rechtsgrundlage (Standardvertragsklauseln / Data Privacy Framework) je Anbieter prüfen</span></td></tr>
+    <tr><td>Löschfristen</td><td>Arbeitsdaten lokal unter %LOCALAPPDATA%\Kursuebersetzer, löschbar jederzeit; beim Anbieter gemäß dessen Bedingungen</td></tr>
+    <tr><td>Technische und organisatorische Maßnahmen</td><td>Zugänge nur auf dem Dienstrechner; keine personenbezogenen Daten in Kurstexten; Einwilligung bei Videos mit Personen</td></tr>
+  </table>
+
+  <div class="leiste">
+    <button class="knopf haupt" onclick="window.print()">Drucken / als PDF speichern</button>
+    <a class="knopf zweit" href="/">Zurück</a>
+  </div>
+</div>
+</body>
+</html>

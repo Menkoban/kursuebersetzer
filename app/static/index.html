@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kursübersetzer</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230f5c55'/><text x='16' y='22' font-size='16' text-anchor='middle' fill='%23ffd166' font-family='sans-serif' font-weight='700'>Aa</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="kopf">
+  <div class="marke">
+    <span class="logo" aria-hidden="true">Aa</span>
+    <div>
+      <h1>Kursübersetzer</h1>
+      <p>Moodle-Kurs rein, andere Sprache raus – Bild und Aufbau bleiben gleich.</p>
+    </div>
+  </div>
+  <div class="kopfknoepfe"><a class="kopflink" href="datenschutz.html">Datenschutz</a>
+  <button class="rund" id="zahnrad" title="Einstellungen & API-Schlüssel" aria-label="Einstellungen">
+    <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M19.4 13a7.6 7.6 0 0 0 0-2l2.1-1.6-2-3.4-2.5 1a7.4 7.4 0 0 0-1.7-1L15 3.3h-4l-.4 2.7a7.4 7.4 0 0 0-1.7 1l-2.5-1-2 3.4L6.6 11a7.6 7.6 0 0 0 0 2l-2.1 1.6 2 3.4 2.5-1c.5.4 1.1.7 1.7 1l.4 2.7h4l.4-2.7c.6-.3 1.2-.6 1.7-1l2.5 1 2-3.4zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg>
+  </button></div>
+</header>
+
+<div id="warnleiste" class="warnleiste" hidden></div>
+
+<main class="buehne">
+  <form id="formular" class="formular" novalidate>
+
+    <section class="karte" data-nr="1">
+      <h2><span class="nr">1</span> Kurs</h2>
+      <label id="ablage" class="ablage" tabindex="0">
+        <input type="file" id="datei" accept=".mbz" hidden>
+        <svg viewBox="0 0 48 48" width="46" height="46" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M24 31V11m0 0-8 8m8-8 8 8M9 30v6a3 3 0 0 0 3 3h24a3 3 0 0 0 3-3v-6"/></svg>
+        <strong id="ablage_titel">Moodle-Sicherung hierher ziehen</strong>
+        <span id="ablage_info">oder klicken und die <code>.mbz</code>-Datei auswählen</span>
+      </label>
+    </section>
+
+    <section class="karte" data-nr="2">
+      <h2><span class="nr">2</span> Zielsprache</h2>
+      <select id="sprache" class="sprachwahl" aria-label="Zielsprache">
+        <option value="">Sprache wählen …</option>
+      </select>
+      <p class="erklaerung" id="spracheinfo">193 Sprachen wie bei Google Übersetzer. Tipp: Liste öffnen und den
+        Anfangsbuchstaben tippen.</p>
+    </section>
+
+    <section class="karte" data-nr="3">
+      <h2><span class="nr">3</span> Videos</h2>
+      <label class="feldname" for="videoordner">Videoordner dieser Sprache</label>
+      <div class="ordnerzeile">
+        <input id="videoordner" type="text" placeholder="z. B. …\Kurse\Hauswirtschaft\FR\Videos" autocomplete="off" spellcheck="false">
+        <button type="button" class="knopf zweit" id="durchsuchen">Durchsuchen …</button>
+      </div>
+      <p class="erklaerung" id="ordnerinfo">Liegen dort schon fertige Videos (z. B. <em>Fritteuse_FR.mp4</em>), nimmt die App sie.
+        Nur was fehlt, wird neu erstellt – und anschließend auch dort abgelegt.</p>
+
+      <p class="feldname">Fehlende Videos erstellen mit</p>
+      <div class="wege" role="radiogroup">
+        <label class="weg">
+          <input type="radio" name="modus" value="edge" checked>
+          <span class="wegkarte">
+            <span class="wegkopf"><b>Microsoft-Stimme</b><span class="schild gruen">kostenlos</span></span>
+            <span class="wegtext">Der Sprechtext wird übersetzt und neu vertont, das Bild bleibt.
+              Nicht lippensynchron. Läuft auf diesem Rechner.</span>
+          </span>
+        </label>
+        <label class="weg">
+          <input type="radio" name="modus" value="heygen">
+          <span class="wegkarte">
+            <span class="wegkopf"><b>HeyGen</b><span class="schild orange">kostet Credits</span></span>
+            <span class="wegtext">Die Videos werden lippensynchron übersetzt – der Avatar spricht die neue Sprache.
+              Braucht einen HeyGen-Schlüssel, Wartezeit je nach Andrang.</span>
+          </span>
+        </label>
+      </div>
+
+      <div id="stimmwahl" class="stimmwahl">
+        <span class="feldname">Stimme</span>
+        <div class="segment" role="radiogroup">
+          <label><input type="radio" name="stimme" value="auto" checked><span>passend zum Original</span></label>
+          <label><input type="radio" name="stimme" value="w"><span>immer weiblich</span></label>
+          <label><input type="radio" name="stimme" value="m"><span>immer männlich</span></label>
+        </div>
+      </div>
+    </section>
+
+    <details class="karte feinheiten">
+      <summary><span class="nr klein">+</span> Feinheiten <span class="leise">– meist nicht nötig</span></summary>
+      <label class="feldname" for="kursname">Kursname in Moodle</label>
+      <input id="kursname" type="text" placeholder="leer = wird übersetzt, z. B. „FR: Consignes de sécurité …“">
+      <label class="feldname" for="quizid">Nummer des Tests im Zielkurs <span class="leise">(nur bei festen Links, siehe Hinweise)</span></label>
+      <input id="quizid" type="text" inputmode="numeric" placeholder="z. B. 45012">
+      <label class="haken"><input type="checkbox" id="klein" checked>
+        Ist die Sicherung größer als 500 MB, zusätzlich eine kleine Fassung für das Schul-Moodle bauen</label>
+      <label class="haken"><input type="checkbox" id="moodleprobe" checked>
+        Fertige Sicherung probeweise in Moodle einspielen, wenn die Moodle-Prüfung eingerichtet ist (Zahnrad)</label>
+    </details>
+
+    <div class="startleiste">
+      <p class="zusammenfassung"><span id="zusammenfassung">Wähle einen Kurs und eine Sprache.</span>
+        <button type="button" class="kilink" id="ki_hinweis" title="Anbieter und Modell ändern"></button></p>
+      <button type="submit" class="knopf haupt" id="start" disabled>
+        Übersetzung starten
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M13 5l7 7-7 7-1.4-1.4 4.6-4.6H4v-2h12.2l-4.6-4.6z"/></svg>
+      </button>
+    </div>
+    <div id="hochladen" class="hochladen" hidden><div class="balken"><i></i></div><span></span></div>
+  </form>
+
+  <aside class="auftraege">
+    <h2 class="seitentitel">Aufträge</h2>
+    <div id="liste"><p class="leer">Noch nichts gestartet. Die Aufträge laufen nacheinander ab –
+      man kann mehrere Sprachen hintereinander einreihen.</p></div>
+  </aside>
+</main>
+
+<dialog id="ordnerdialog" class="dialog">
+  <form method="dialog">
+    <h3>Videoordner wählen</h3>
+    <div class="pfadzeile"><button type="button" class="rund klein" id="hoch" title="eine Ebene hoch">↑</button><code id="ordnerpfad"></code></div>
+    <ul id="ordnerliste" class="ordnerliste"></ul>
+    <div class="dialogfuss">
+      <span id="ordnervideos" class="leise"></span>
+      <button value="abbruch" class="knopf zweit">Abbrechen</button>
+      <button value="ok" id="ordner_ok" class="knopf haupt">Diesen Ordner nehmen</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="einstellungsdialog" class="dialog">
+  <form method="dialog">
+    <h3>Einstellungen</h3>
+    <p class="erklaerung">Die Schlüssel bleiben auf diesem Rechner (Datei <code>einstellungen.json</code> im Datenordner der App)
+      und werden nie im Browser gespeichert.</p>
+    <p class="feldname">Wer übersetzt die Texte?</p>
+    <div class="segment anbieterwahl" id="anbieter" role="radiogroup"></div>
+    <p class="erklaerung" id="anbieterinfo"></p>
+    <div id="urlzeile" hidden>
+      <label class="feldname" for="s_url">Adresse des Dienstes</label>
+      <input id="s_url" type="text" placeholder="z. B. http://localhost:11434/v1 (Ollama) oder https://api.openai.com/v1" spellcheck="false">
+    </div>
+    <label class="feldname" for="s_modell">Modell <span class="leise" id="modellzahl"></span></label>
+    <input id="s_modell" type="text" list="modellvorschlaege" autocomplete="off" spellcheck="false">
+    <datalist id="modellvorschlaege"></datalist>
+    <label class="feldname" for="s_ki">API-Schlüssel <span class="leise" id="schluesselinfo"></span></label>
+    <div class="ordnerzeile"><input id="s_ki" type="password" autocomplete="off">
+      <button type="button" class="knopf zweit" data-test="ki">Probeübersetzung</button></div>
+    <p class="testergebnis" id="t_ki"></p>
+    <p class="feldname">Vorlesestimme <span class="leise">– für den Weg „Microsoft-Stimme“</span></p>
+    <div class="segment anbieterwahl" role="radiogroup">
+      <label><input type="radio" name="vorlesen" value="edge"><span>Ohne Konto (Edge)</span></label>
+      <label><input type="radio" name="vorlesen" value="azure"><span>Azure Speech (offiziell)</span></label>
+    </div>
+    <p class="erklaerung" id="vorleseinfo"></p>
+    <div id="azurezeilen" hidden>
+      <label class="feldname" for="s_azure">Azure-Speech-Schlüssel</label>
+      <input id="s_azure" type="password" autocomplete="off">
+      <label class="feldname" for="s_region">Region</label>
+      <input id="s_region" type="text" list="azureregionen" spellcheck="false">
+      <datalist id="azureregionen"><option value="germanywestcentral">Frankfurt</option>
+        <option value="westeurope">Niederlande</option><option value="northeurope">Irland</option>
+        <option value="swedencentral">Schweden</option><option value="francecentral">Paris</option></datalist>
+    </div>
+    <div class="ordnerzeile"><button type="button" class="knopf zweit" data-test="stimme">Hörprobe</button></div>
+    <p class="testergebnis" id="t_stimme"></p>
+    <label class="feldname" for="s_heygen">HeyGen-API-Schlüssel <span class="leise">– nur für lippensynchrone Videos; zu finden auf platform.heygen.com/api-keys (eigenes API-Guthaben)</span></label>
+    <div class="ordnerzeile"><input id="s_heygen" type="password" placeholder="optional" autocomplete="off">
+      <button type="button" class="knopf zweit" data-test="heygen">Testen</button></div>
+    <p class="testergebnis" id="t_heygen"></p>
+    <p class="feldname">Moodle-Prüfung <span class="leise">– spielt jede fertige Sicherung probeweise in ein
+      Moodle 4.5 auf diesem Rechner ein: Geht sie hoch oder nicht?</span></p>
+    <p class="erklaerung" id="laborstand">wird geprüft …</p>
+    <div class="ordnerzeile"><button type="button" class="knopf zweit" id="labor_einrichten" hidden>
+      Einrichten (einmalig, ca. 450 MB Download, 10–20 Minuten)</button></div>
+    <pre class="laborlog" id="laborlog" hidden></pre>
+    <div id="systemstand" class="systemstand"></div>
+    <div class="dialogfuss">
+      <button value="abbruch" class="knopf zweit">Schließen</button>
+      <button value="ok" id="speichern" class="knopf haupt">Speichern</button>
+    </div>
+  </form>
+</dialog>
+
+<template id="auftragsvorlage">
+  <article class="auftrag">
+    <header>
+      <div><b class="a_titel"></b><span class="a_unter leise"></span></div>
+      <span class="a_zustand schild"></span>
+    </header>
+    <div class="fortschritt"><i></i></div>
+    <ol class="schritte"></ol>
+    <div class="a_hinweise"></div>
+    <div class="a_ergebnisse"></div>
+    <details class="a_protokoll"><summary>Protokoll</summary><pre></pre></details>
+    <footer><button class="knopf zweit klein a_abbrechen">Abbrechen</button></footer>
+  </article>
+</template>
+
+<script src="app.js"></script>
+</body>
+</html>

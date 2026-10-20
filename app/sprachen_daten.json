@@ -1,0 +1,1590 @@
+{
+ "ab": {
+  "eigen": "Аԥсшәа",
+  "google": "ab",
+  "heygen": "Abkhaz",
+  "name": "Abchasisch",
+  "stimmen": null
+ },
+ "ace": {
+  "eigen": "Acehnese",
+  "google": "ace",
+  "heygen": "Acehnese",
+  "name": "Aceh",
+  "stimmen": null
+ },
+ "ach": {
+  "eigen": "Acholi",
+  "google": "ach",
+  "heygen": "Acholi",
+  "name": "Acholi",
+  "stimmen": null
+ },
+ "af": {
+  "eigen": "Afrikaans",
+  "google": "af",
+  "heygen": "Afrikaans",
+  "name": "Afrikaans",
+  "stimmen": {
+   "m": "af-ZA-WillemNeural",
+   "w": "af-ZA-AdriNeural"
+  }
+ },
+ "ak": {
+  "eigen": "Akan",
+  "google": "ak",
+  "heygen": "Twi (Akan)",
+  "name": "Akan",
+  "stimmen": null
+ },
+ "alz": {
+  "eigen": "Alur",
+  "google": "alz",
+  "heygen": "Alur",
+  "name": "Alur",
+  "stimmen": null
+ },
+ "am": {
+  "eigen": "አማርኛ",
+  "google": "am",
+  "heygen": "Amharic",
+  "name": "Amharisch",
+  "stimmen": {
+   "m": "am-ET-AmehaNeural",
+   "w": "am-ET-MekdesNeural"
+  }
+ },
+ "ar": {
+  "eigen": "العربية",
+  "google": "ar",
+  "heygen": "Arabic",
+  "name": "Arabisch",
+  "stimmen": {
+   "m": "ar-SA-HamedNeural",
+   "w": "ar-SA-ZariyahNeural"
+  }
+ },
+ "as": {
+  "eigen": "অসমীয়া",
+  "google": "as",
+  "heygen": "Assamese",
+  "name": "Assamesisch",
+  "stimmen": null
+ },
+ "awa": {
+  "eigen": "Awadhi",
+  "google": "awa",
+  "heygen": "Awadhi",
+  "name": "Awadhi",
+  "stimmen": null
+ },
+ "ay": {
+  "eigen": "Aymara",
+  "google": "ay",
+  "heygen": "Aymara",
+  "name": "Aymara",
+  "stimmen": null
+ },
+ "az": {
+  "eigen": "Azərbaycan",
+  "google": "az",
+  "heygen": "Azerbaijani",
+  "name": "Aserbaidschanisch",
+  "stimmen": {
+   "m": "az-AZ-BabekNeural",
+   "w": "az-AZ-BanuNeural"
+  }
+ },
+ "ba": {
+  "eigen": "Башҡорт теле",
+  "google": "ba",
+  "heygen": "Bashkir",
+  "name": "Baschkirisch",
+  "stimmen": null
+ },
+ "ban": {
+  "eigen": "Balinese",
+  "google": "ban",
+  "heygen": "Balinese",
+  "name": "Balinesisch",
+  "stimmen": null
+ },
+ "bbc": {
+  "eigen": "Batak Toba",
+  "google": "bbc",
+  "heygen": "Batak Toba",
+  "name": "Batak Toba",
+  "stimmen": null
+ },
+ "be": {
+  "eigen": "Беларуская",
+  "google": "be",
+  "heygen": "Belarusian",
+  "name": "Belarussisch",
+  "stimmen": null
+ },
+ "bem": {
+  "eigen": "Ichibemba",
+  "google": "bem",
+  "heygen": "Bemba",
+  "name": "Bemba",
+  "stimmen": null
+ },
+ "bew": {
+  "eigen": "Betawi",
+  "google": "bew",
+  "heygen": "Betawi",
+  "name": "Betawi",
+  "stimmen": null
+ },
+ "bg": {
+  "eigen": "Български",
+  "google": "bg",
+  "heygen": "Bulgarian",
+  "name": "Bulgarisch",
+  "stimmen": {
+   "m": "bg-BG-BorislavNeural",
+   "w": "bg-BG-KalinaNeural"
+  }
+ },
+ "bho": {
+  "eigen": "भोजपुरी",
+  "google": "bho",
+  "heygen": "Bhojpuri",
+  "name": "Bhodschpuri",
+  "stimmen": null
+ },
+ "bik": {
+  "eigen": "Bikol",
+  "google": "bik",
+  "heygen": "Bikol",
+  "name": "Bikol",
+  "stimmen": null
+ },
+ "bm": {
+  "eigen": "Bamanakan",
+  "google": "bm",
+  "heygen": "Bambara",
+  "name": "Bambara",
+  "stimmen": null
+ },
+ "bn": {
+  "eigen": "বাংলা",
+  "google": "bn",
+  "heygen": "Bengali",
+  "name": "Bengalisch",
+  "stimmen": {
+   "m": "bn-BD-PradeepNeural",
+   "w": "bn-BD-NabanitaNeural"
+  }
+ },
+ "br": {
+  "eigen": "Brezhoneg",
+  "google": "br",
+  "heygen": "Breton",
+  "name": "Bretonisch",
+  "stimmen": null
+ },
+ "bs": {
+  "eigen": "Bosanski",
+  "google": "bs",
+  "heygen": "Bosnian",
+  "name": "Bosnisch",
+  "stimmen": {
+   "m": "bs-BA-GoranNeural",
+   "w": "bs-BA-VesnaNeural"
+  }
+ },
+ "bts": {
+  "eigen": "Batak Simalungun",
+  "google": "bts",
+  "heygen": "Batak Simalungun",
+  "name": "Batak Simalungun",
+  "stimmen": null
+ },
+ "btx": {
+  "eigen": "Batak Karo",
+  "google": "btx",
+  "heygen": "Batak Karo",
+  "name": "Batak Karo",
+  "stimmen": null
+ },
+ "bua": {
+  "eigen": "Buryat",
+  "google": "bua",
+  "heygen": "Buryat",
+  "name": "Burjatisch",
+  "stimmen": null
+ },
+ "ca": {
+  "eigen": "Català",
+  "google": "ca",
+  "heygen": "Catalan",
+  "name": "Katalanisch",
+  "stimmen": {
+   "m": "ca-ES-EnricNeural",
+   "w": "ca-ES-JoanaNeural"
+  }
+ },
+ "ceb": {
+  "eigen": "Cebuano",
+  "google": "ceb",
+  "heygen": "Cebuano",
+  "name": "Cebuano",
+  "stimmen": null
+ },
+ "cgg": {
+  "eigen": "Rukiga",
+  "google": "cgg",
+  "heygen": "Kiga",
+  "name": "Rukiga",
+  "stimmen": null
+ },
+ "chm": {
+  "eigen": "Meadow Mari",
+  "google": "chm",
+  "heygen": "Meadow Mari",
+  "name": "Mari",
+  "stimmen": null
+ },
+ "ckb": {
+  "eigen": "کوردیی ناوەندی",
+  "google": "ckb",
+  "heygen": "Kurdish (Sorani)",
+  "name": "Kurdisch (Sorani)",
+  "stimmen": null
+ },
+ "cnh": {
+  "eigen": "Hakha Chin",
+  "google": "cnh",
+  "heygen": "Hakha Chin",
+  "name": "Hakha Chin",
+  "stimmen": null
+ },
+ "co": {
+  "eigen": "Corsu",
+  "google": "co",
+  "heygen": "Corsican",
+  "name": "Korsisch",
+  "stimmen": null
+ },
+ "crh": {
+  "eigen": "Crimean Tatar",
+  "google": "crh",
+  "heygen": "Crimean Tatar",
+  "name": "Krimtatarisch",
+  "stimmen": null
+ },
+ "crs": {
+  "eigen": "Seychellois Creole",
+  "google": "crs",
+  "heygen": "Seychellois Creole",
+  "name": "Seychellen-Kreolisch",
+  "stimmen": null
+ },
+ "cs": {
+  "eigen": "Čeština",
+  "google": "cs",
+  "heygen": "Czech",
+  "name": "Tschechisch",
+  "stimmen": {
+   "m": "cs-CZ-AntoninNeural",
+   "w": "cs-CZ-VlastaNeural"
+  }
+ },
+ "cv": {
+  "eigen": "Чӑваш",
+  "google": "cv",
+  "heygen": "Chuvash",
+  "name": "Tschuwaschisch",
+  "stimmen": null
+ },
+ "cy": {
+  "eigen": "Cymraeg",
+  "google": "cy",
+  "heygen": "Welsh",
+  "name": "Walisisch",
+  "stimmen": {
+   "m": "cy-GB-AledNeural",
+   "w": "cy-GB-NiaNeural"
+  }
+ },
+ "da": {
+  "eigen": "Dansk",
+  "google": "da",
+  "heygen": "Danish",
+  "name": "Dänisch",
+  "stimmen": {
+   "m": "da-DK-JeppeNeural",
+   "w": "da-DK-ChristelNeural"
+  }
+ },
+ "de": {
+  "eigen": "Deutsch",
+  "google": "de",
+  "heygen": "German",
+  "name": "Deutsch",
+  "stimmen": {
+   "m": "de-DE-ConradNeural",
+   "w": "de-DE-KatjaNeural"
+  }
+ },
+ "din": {
+  "eigen": "Dinka",
+  "google": "din",
+  "heygen": "Dinka",
+  "name": "Dinka",
+  "stimmen": null
+ },
+ "doi": {
+  "eigen": "डोगरी",
+  "google": "doi",
+  "heygen": "Dogri",
+  "name": "Dogri",
+  "stimmen": null
+ },
+ "dov": {
+  "eigen": "Dombe",
+  "google": "dov",
+  "heygen": "Dombe",
+  "name": "Dombe",
+  "stimmen": null
+ },
+ "dv": {
+  "eigen": "ދިވެހިބަސް",
+  "google": "dv",
+  "heygen": "Divehi",
+  "name": "Dhivehi",
+  "stimmen": null
+ },
+ "dz": {
+  "eigen": "རྫོང་ཁ",
+  "google": "dz",
+  "heygen": "Dzongkha",
+  "name": "Dzongkha",
+  "stimmen": null
+ },
+ "ee": {
+  "eigen": "Eʋegbe",
+  "google": "ee",
+  "heygen": "Ewe",
+  "name": "Ewe",
+  "stimmen": null
+ },
+ "el": {
+  "eigen": "Ελληνικά",
+  "google": "el",
+  "heygen": "Greek",
+  "name": "Griechisch",
+  "stimmen": {
+   "m": "el-GR-NestorasNeural",
+   "w": "el-GR-AthinaNeural"
+  }
+ },
+ "en": {
+  "eigen": "English",
+  "google": "en",
+  "heygen": "English",
+  "name": "Englisch",
+  "stimmen": {
+   "m": "en-GB-RyanNeural",
+   "w": "en-GB-SoniaNeural"
+  }
+ },
+ "eo": {
+  "eigen": "Esperanto",
+  "google": "eo",
+  "heygen": "Esperanto",
+  "name": "Esperanto",
+  "stimmen": null
+ },
+ "es": {
+  "eigen": "Español",
+  "google": "es",
+  "heygen": "Spanish",
+  "name": "Spanisch",
+  "stimmen": {
+   "m": "es-ES-AlvaroNeural",
+   "w": "es-ES-ElviraNeural"
+  }
+ },
+ "et": {
+  "eigen": "Eesti",
+  "google": "et",
+  "heygen": "Estonian",
+  "name": "Estnisch",
+  "stimmen": {
+   "m": "et-EE-KertNeural",
+   "w": "et-EE-AnuNeural"
+  }
+ },
+ "eu": {
+  "eigen": "Euskara",
+  "google": "eu",
+  "heygen": "Basque",
+  "name": "Baskisch",
+  "stimmen": null
+ },
+ "fa": {
+  "eigen": "فارسی",
+  "google": "fa",
+  "heygen": "Persian",
+  "name": "Persisch (Farsi)",
+  "stimmen": {
+   "m": "fa-IR-FaridNeural",
+   "w": "fa-IR-DilaraNeural"
+  }
+ },
+ "ff": {
+  "eigen": "Pulaar",
+  "google": "ff",
+  "heygen": "Fulfulde",
+  "name": "Ful",
+  "stimmen": null
+ },
+ "fi": {
+  "eigen": "Suomi",
+  "google": "fi",
+  "heygen": "Finnish",
+  "name": "Finnisch",
+  "stimmen": {
+   "m": "fi-FI-HarriNeural",
+   "w": "fi-FI-NooraNeural"
+  }
+ },
+ "fil": {
+  "eigen": "Filipino",
+  "google": "fil",
+  "heygen": "Filipino (Tagalog)",
+  "name": "Filipino",
+  "stimmen": {
+   "m": "fil-PH-AngeloNeural",
+   "w": "fil-PH-BlessicaNeural"
+  }
+ },
+ "fj": {
+  "eigen": "Fijian",
+  "google": "fj",
+  "heygen": "Fijian",
+  "name": "Fidschi",
+  "stimmen": null
+ },
+ "fr": {
+  "eigen": "Français",
+  "google": "fr",
+  "heygen": "French",
+  "name": "Französisch",
+  "stimmen": {
+   "m": "fr-FR-HenriNeural",
+   "w": "fr-FR-DeniseNeural"
+  }
+ },
+ "fr-ca": {
+  "eigen": "Français (Canada)",
+  "google": "fr-CA",
+  "heygen": "French (Canadian)",
+  "name": "Französisch (Kanada)",
+  "stimmen": {
+   "m": "fr-CA-ThierryNeural",
+   "w": "fr-CA-SylvieNeural"
+  }
+ },
+ "fy": {
+  "eigen": "Frysk",
+  "google": "fy",
+  "heygen": "Frisian",
+  "name": "Westfriesisch",
+  "stimmen": null
+ },
+ "ga": {
+  "eigen": "Gaeilge",
+  "google": "ga",
+  "heygen": "Irish",
+  "name": "Irisch",
+  "stimmen": {
+   "m": "ga-IE-ColmNeural",
+   "w": "ga-IE-OrlaNeural"
+  }
+ },
+ "gaa": {
+  "eigen": "Gã",
+  "google": "gaa",
+  "heygen": "Ga",
+  "name": "Ga",
+  "stimmen": null
+ },
+ "gd": {
+  "eigen": "Gàidhlig",
+  "google": "gd",
+  "heygen": "Scots Gaelic",
+  "name": "Gälisch (Schottland)",
+  "stimmen": null
+ },
+ "gl": {
+  "eigen": "Galego",
+  "google": "gl",
+  "heygen": "Galician",
+  "name": "Galicisch",
+  "stimmen": {
+   "m": "gl-ES-RoiNeural",
+   "w": "gl-ES-SabelaNeural"
+  }
+ },
+ "gn": {
+  "eigen": "Avañe’ẽ",
+  "google": "gn",
+  "heygen": "Guarani",
+  "name": "Guaraní",
+  "stimmen": null
+ },
+ "gom": {
+  "eigen": "कोंकणी (देवनागरी, भारत)",
+  "google": "gom",
+  "heygen": "Konkani",
+  "name": "Konkani (Devanagari, Indien)",
+  "stimmen": null
+ },
+ "gu": {
+  "eigen": "ગુજરાતી",
+  "google": "gu",
+  "heygen": "Gujarati",
+  "name": "Gujarati",
+  "stimmen": {
+   "m": "gu-IN-NiranjanNeural",
+   "w": "gu-IN-DhwaniNeural"
+  }
+ },
+ "ha": {
+  "eigen": "Hausa",
+  "google": "ha",
+  "heygen": "Hausa",
+  "name": "Haussa",
+  "stimmen": null
+ },
+ "haw": {
+  "eigen": "ʻŌlelo Hawaiʻi",
+  "google": "haw",
+  "heygen": "Hawaiian",
+  "name": "Hawaiisch",
+  "stimmen": null
+ },
+ "he": {
+  "eigen": "עברית",
+  "google": "iw",
+  "heygen": "Hebrew",
+  "name": "Hebräisch",
+  "stimmen": {
+   "m": "he-IL-AvriNeural",
+   "w": "he-IL-HilaNeural"
+  }
+ },
+ "hi": {
+  "eigen": "हिन्दी",
+  "google": "hi",
+  "heygen": "Hindi",
+  "name": "Hindi",
+  "stimmen": {
+   "m": "hi-IN-MadhurNeural",
+   "w": "hi-IN-SwaraNeural"
+  }
+ },
+ "hil": {
+  "eigen": "Hiligaynon",
+  "google": "hil",
+  "heygen": "Hiligaynon",
+  "name": "Hiligaynon",
+  "stimmen": null
+ },
+ "hmn": {
+  "eigen": "Hmong",
+  "google": "hmn",
+  "heygen": "Hmong",
+  "name": "Hmong",
+  "stimmen": null
+ },
+ "hr": {
+  "eigen": "Hrvatski",
+  "google": "hr",
+  "heygen": "Croatian",
+  "name": "Kroatisch",
+  "stimmen": {
+   "m": "hr-HR-SreckoNeural",
+   "w": "hr-HR-GabrijelaNeural"
+  }
+ },
+ "hrx": {
+  "eigen": "Hunsrik",
+  "google": "hrx",
+  "heygen": "Hunsrik",
+  "name": "Hunsrik",
+  "stimmen": null
+ },
+ "ht": {
+  "eigen": "Kreyòl Ayisyen",
+  "google": "ht",
+  "heygen": "Haitian Creole",
+  "name": "Haitianisch",
+  "stimmen": null
+ },
+ "hu": {
+  "eigen": "Magyar",
+  "google": "hu",
+  "heygen": "Hungarian",
+  "name": "Ungarisch",
+  "stimmen": {
+   "m": "hu-HU-TamasNeural",
+   "w": "hu-HU-NoemiNeural"
+  }
+ },
+ "hy": {
+  "eigen": "Հայերեն",
+  "google": "hy",
+  "heygen": "Armenian",
+  "name": "Armenisch",
+  "stimmen": null
+ },
+ "id": {
+  "eigen": "Indonesia",
+  "google": "id",
+  "heygen": "Indonesian",
+  "name": "Indonesisch",
+  "stimmen": {
+   "m": "id-ID-ArdiNeural",
+   "w": "id-ID-GadisNeural"
+  }
+ },
+ "ig": {
+  "eigen": "Igbo",
+  "google": "ig",
+  "heygen": "Igbo",
+  "name": "Igbo",
+  "stimmen": null
+ },
+ "ilo": {
+  "eigen": "Iloko",
+  "google": "ilo",
+  "heygen": "Iloko",
+  "name": "Ilokano",
+  "stimmen": null
+ },
+ "is": {
+  "eigen": "Íslenska",
+  "google": "is",
+  "heygen": "Icelandic",
+  "name": "Isländisch",
+  "stimmen": {
+   "m": "is-IS-GunnarNeural",
+   "w": "is-IS-GudrunNeural"
+  }
+ },
+ "it": {
+  "eigen": "Italiano",
+  "google": "it",
+  "heygen": "Italian",
+  "name": "Italienisch",
+  "stimmen": {
+   "m": "it-IT-DiegoNeural",
+   "w": "it-IT-ElsaNeural"
+  }
+ },
+ "ja": {
+  "eigen": "日本語",
+  "google": "ja",
+  "heygen": "Japanese",
+  "name": "Japanisch",
+  "stimmen": {
+   "m": "ja-JP-KeitaNeural",
+   "w": "ja-JP-NanamiNeural"
+  }
+ },
+ "jv": {
+  "eigen": "Jawa (Indonésia)",
+  "google": "jw",
+  "heygen": "Javanese",
+  "name": "Javanisch (Indonesien)",
+  "stimmen": {
+   "m": "jv-ID-DimasNeural",
+   "w": "jv-ID-SitiNeural"
+  }
+ },
+ "ka": {
+  "eigen": "Ქართული",
+  "google": "ka",
+  "heygen": "Georgian",
+  "name": "Georgisch",
+  "stimmen": {
+   "m": "ka-GE-GiorgiNeural",
+   "w": "ka-GE-EkaNeural"
+  }
+ },
+ "kk": {
+  "eigen": "Қазақ тілі",
+  "google": "kk",
+  "heygen": "Kazakh",
+  "name": "Kasachisch",
+  "stimmen": {
+   "m": "kk-KZ-DauletNeural",
+   "w": "kk-KZ-AigulNeural"
+  }
+ },
+ "km": {
+  "eigen": "ខ្មែរ",
+  "google": "km",
+  "heygen": "Khmer",
+  "name": "Khmer",
+  "stimmen": {
+   "m": "km-KH-PisethNeural",
+   "w": "km-KH-SreymomNeural"
+  }
+ },
+ "kn": {
+  "eigen": "ಕನ್ನಡ",
+  "google": "kn",
+  "heygen": "Kannada",
+  "name": "Kannada",
+  "stimmen": {
+   "m": "kn-IN-GaganNeural",
+   "w": "kn-IN-SapnaNeural"
+  }
+ },
+ "ko": {
+  "eigen": "한국어",
+  "google": "ko",
+  "heygen": "Korean",
+  "name": "Koreanisch",
+  "stimmen": {
+   "m": "ko-KR-InJoonNeural",
+   "w": "ko-KR-SunHiNeural"
+  }
+ },
+ "kri": {
+  "eigen": "Krio",
+  "google": "kri",
+  "heygen": "Krio",
+  "name": "Krio",
+  "stimmen": null
+ },
+ "ktu": {
+  "eigen": "Kituba",
+  "google": "ktu",
+  "heygen": "Kituba",
+  "name": "Kituba",
+  "stimmen": null
+ },
+ "ku": {
+  "eigen": "Kurdî (kurmancî)",
+  "google": "ku",
+  "heygen": "Kurdish (Kurmanji)",
+  "name": "Kurdisch (Kurmandschi)",
+  "stimmen": null
+ },
+ "ky": {
+  "eigen": "Кыргызча",
+  "google": "ky",
+  "heygen": "Kyrgyz",
+  "name": "Kirgisisch",
+  "stimmen": null
+ },
+ "la": {
+  "eigen": "Latina",
+  "google": "la",
+  "heygen": "Latin",
+  "name": "Latein",
+  "stimmen": null
+ },
+ "lb": {
+  "eigen": "Lëtzebuergesch",
+  "google": "lb",
+  "heygen": "Luxembourgish",
+  "name": "Luxemburgisch",
+  "stimmen": null
+ },
+ "lg": {
+  "eigen": "Luganda",
+  "google": "lg",
+  "heygen": "Ganda (Luganda)",
+  "name": "Ganda",
+  "stimmen": null
+ },
+ "li": {
+  "eigen": "Limburgan",
+  "google": "li",
+  "heygen": "Limburgan",
+  "name": "Limburgisch",
+  "stimmen": null
+ },
+ "lij": {
+  "eigen": "Ligure",
+  "google": "lij",
+  "heygen": "Ligurian",
+  "name": "Ligurisch",
+  "stimmen": null
+ },
+ "lmo": {
+  "eigen": "Lombard",
+  "google": "lmo",
+  "heygen": "Lombard",
+  "name": "Lombardisch",
+  "stimmen": null
+ },
+ "ln": {
+  "eigen": "Lingála",
+  "google": "ln",
+  "heygen": "Lingala",
+  "name": "Lingala",
+  "stimmen": null
+ },
+ "lo": {
+  "eigen": "ລາວ",
+  "google": "lo",
+  "heygen": "Lao",
+  "name": "Laotisch",
+  "stimmen": {
+   "m": "lo-LA-ChanthavongNeural",
+   "w": "lo-LA-KeomanyNeural"
+  }
+ },
+ "lt": {
+  "eigen": "Lietuvių",
+  "google": "lt",
+  "heygen": "Lithuanian",
+  "name": "Litauisch",
+  "stimmen": {
+   "m": "lt-LT-LeonasNeural",
+   "w": "lt-LT-OnaNeural"
+  }
+ },
+ "ltg": {
+  "eigen": "Latgalīšu",
+  "google": "ltg",
+  "heygen": "Latgalian",
+  "name": "Lettgallisch",
+  "stimmen": null
+ },
+ "luo": {
+  "eigen": "Dholuo",
+  "google": "luo",
+  "heygen": "Luo",
+  "name": "Luo",
+  "stimmen": null
+ },
+ "lus": {
+  "eigen": "Mizo",
+  "google": "lus",
+  "heygen": "Mizo",
+  "name": "Lushai",
+  "stimmen": null
+ },
+ "lv": {
+  "eigen": "Latviešu",
+  "google": "lv",
+  "heygen": "Latvian",
+  "name": "Lettisch",
+  "stimmen": {
+   "m": "lv-LV-NilsNeural",
+   "w": "lv-LV-EveritaNeural"
+  }
+ },
+ "mai": {
+  "eigen": "मैथिली",
+  "google": "mai",
+  "heygen": "Maithili",
+  "name": "Maithili",
+  "stimmen": null
+ },
+ "mak": {
+  "eigen": "Makassar",
+  "google": "mak",
+  "heygen": "Makassar",
+  "name": "Makassarisch",
+  "stimmen": null
+ },
+ "mg": {
+  "eigen": "Malagasy",
+  "google": "mg",
+  "heygen": "Malagasy",
+  "name": "Malagasy",
+  "stimmen": null
+ },
+ "mi": {
+  "eigen": "Māori",
+  "google": "mi",
+  "heygen": "Maori",
+  "name": "Māori",
+  "stimmen": null
+ },
+ "min": {
+  "eigen": "Minang",
+  "google": "min",
+  "heygen": "Minang",
+  "name": "Minangkabau",
+  "stimmen": null
+ },
+ "mk": {
+  "eigen": "Македонски",
+  "google": "mk",
+  "heygen": "Macedonian",
+  "name": "Mazedonisch",
+  "stimmen": {
+   "m": "mk-MK-AleksandarNeural",
+   "w": "mk-MK-MarijaNeural"
+  }
+ },
+ "ml": {
+  "eigen": "മലയാളം",
+  "google": "ml",
+  "heygen": "Malayalam",
+  "name": "Malayalam",
+  "stimmen": {
+   "m": "ml-IN-MidhunNeural",
+   "w": "ml-IN-SobhanaNeural"
+  }
+ },
+ "mn": {
+  "eigen": "Монгол",
+  "google": "mn",
+  "heygen": "Mongolian",
+  "name": "Mongolisch",
+  "stimmen": {
+   "m": "mn-MN-BataaNeural",
+   "w": "mn-MN-YesuiNeural"
+  }
+ },
+ "mni-mtei": {
+  "eigen": "ꯃꯤꯇꯩꯂꯣꯟ (ꯃꯤꯇꯩ ꯃꯌꯦꯛ)",
+  "google": "mni-Mtei",
+  "heygen": "Meiteilon (Manipuri)",
+  "name": "Meitei (Manipuri)",
+  "stimmen": null
+ },
+ "mr": {
+  "eigen": "मराठी",
+  "google": "mr",
+  "heygen": "Marathi",
+  "name": "Marathi",
+  "stimmen": {
+   "m": "mr-IN-ManoharNeural",
+   "w": "mr-IN-AarohiNeural"
+  }
+ },
+ "ms": {
+  "eigen": "Melayu",
+  "google": "ms",
+  "heygen": "Malay",
+  "name": "Malaiisch",
+  "stimmen": {
+   "m": "ms-MY-OsmanNeural",
+   "w": "ms-MY-YasminNeural"
+  }
+ },
+ "ms-arab": {
+  "eigen": "بهاس ملايو (عرب)",
+  "google": "ms-Arab",
+  "heygen": "Malay (Jawi)",
+  "name": "Malaiisch (Jawi)",
+  "stimmen": null
+ },
+ "mt": {
+  "eigen": "Malti",
+  "google": "mt",
+  "heygen": "Maltese",
+  "name": "Maltesisch",
+  "stimmen": {
+   "m": "mt-MT-JosephNeural",
+   "w": "mt-MT-GraceNeural"
+  }
+ },
+ "my": {
+  "eigen": "မြန်မာ",
+  "google": "my",
+  "heygen": "Myanmar (Burmese)",
+  "name": "Birmanisch",
+  "stimmen": {
+   "m": "my-MM-ThihaNeural",
+   "w": "my-MM-NilarNeural"
+  }
+ },
+ "ne": {
+  "eigen": "नेपाली",
+  "google": "ne",
+  "heygen": "Nepali",
+  "name": "Nepalesisch",
+  "stimmen": {
+   "m": "ne-NP-SagarNeural",
+   "w": "ne-NP-HemkalaNeural"
+  }
+ },
+ "new": {
+  "eigen": "Nepalbhasa (Newari)",
+  "google": "new",
+  "heygen": "Nepalbhasa (Newari)",
+  "name": "Newari",
+  "stimmen": null
+ },
+ "nl": {
+  "eigen": "Nederlands",
+  "google": "nl",
+  "heygen": "Dutch",
+  "name": "Niederländisch",
+  "stimmen": {
+   "m": "nl-NL-MaartenNeural",
+   "w": "nl-NL-ColetteNeural"
+  }
+ },
+ "no": {
+  "eigen": "Norsk",
+  "google": "no",
+  "heygen": "Norwegian",
+  "name": "Norwegisch",
+  "stimmen": {
+   "m": "nb-NO-FinnNeural",
+   "w": "nb-NO-PernilleNeural"
+  }
+ },
+ "nr": {
+  "eigen": "IsiNdebele",
+  "google": "nr",
+  "heygen": "Ndebele (South)",
+  "name": "Süd-Ndebele",
+  "stimmen": null
+ },
+ "nso": {
+  "eigen": "Sesotho sa Leboa",
+  "google": "nso",
+  "heygen": "Northern Sotho (Sepedi)",
+  "name": "Nord-Sotho",
+  "stimmen": null
+ },
+ "nus": {
+  "eigen": "Thok Nath",
+  "google": "nus",
+  "heygen": "Nuer",
+  "name": "Nuer",
+  "stimmen": null
+ },
+ "ny": {
+  "eigen": "Nyanja",
+  "google": "ny",
+  "heygen": "Chichewa (Nyanja)",
+  "name": "Chichewa",
+  "stimmen": null
+ },
+ "oc": {
+  "eigen": "Occitan",
+  "google": "oc",
+  "heygen": "Occitan",
+  "name": "Okzitanisch",
+  "stimmen": null
+ },
+ "om": {
+  "eigen": "Oromoo",
+  "google": "om",
+  "heygen": "Oromo",
+  "name": "Oromo",
+  "stimmen": null
+ },
+ "or": {
+  "eigen": "ଓଡ଼ିଆ",
+  "google": "or",
+  "heygen": "Odia (Oriya)",
+  "name": "Oriya",
+  "stimmen": null
+ },
+ "pa": {
+  "eigen": "پښتو",
+  "google": "ps",
+  "heygen": "Pashto",
+  "name": "Paschtu",
+  "stimmen": {
+   "m": "ps-AF-GulNawazNeural",
+   "w": "ps-AF-LatifaNeural"
+  }
+ },
+ "pa-in": {
+  "eigen": "ਪੰਜਾਬੀ",
+  "google": "pa",
+  "heygen": "Punjabi",
+  "name": "Panjabi (Gurmukhi)",
+  "stimmen": null
+ },
+ "pa-pk": {
+  "eigen": "پنجابی (عربی)",
+  "google": "pa-Arab",
+  "heygen": "Punjabi (Shahmukhi)",
+  "name": "Panjabi (Shahmukhi)",
+  "stimmen": null
+ },
+ "pag": {
+  "eigen": "Pangasinan",
+  "google": "pag",
+  "heygen": "Pangasinan",
+  "name": "Pangasinan",
+  "stimmen": null
+ },
+ "pam": {
+  "eigen": "Kapampangan",
+  "google": "pam",
+  "heygen": "Kapampangan",
+  "name": "Pampanggan",
+  "stimmen": null
+ },
+ "pap": {
+  "eigen": "Papiamentu",
+  "google": "pap",
+  "heygen": "Papiamento",
+  "name": "Papiamento",
+  "stimmen": null
+ },
+ "pl": {
+  "eigen": "Polski",
+  "google": "pl",
+  "heygen": "Polish",
+  "name": "Polnisch",
+  "stimmen": {
+   "m": "pl-PL-MarekNeural",
+   "w": "pl-PL-ZofiaNeural"
+  }
+ },
+ "pt": {
+  "eigen": "Português",
+  "google": "pt",
+  "heygen": "Portuguese",
+  "name": "Portugiesisch",
+  "stimmen": {
+   "m": "pt-PT-DuarteNeural",
+   "w": "pt-PT-RaquelNeural"
+  }
+ },
+ "pt-br": {
+  "eigen": "Português (Brasil)",
+  "google": "pt-BR",
+  "heygen": "Portuguese (Brazil)",
+  "name": "Portugiesisch (Brasilien)",
+  "stimmen": {
+   "m": "pt-BR-AntonioNeural",
+   "w": "pt-BR-FranciscaNeural"
+  }
+ },
+ "pt-pt": {
+  "eigen": "Português (Portugal)",
+  "google": "pt-PT",
+  "heygen": "Portuguese (Portugal)",
+  "name": "Portugiesisch (Portugal)",
+  "stimmen": {
+   "m": "pt-PT-DuarteNeural",
+   "w": "pt-PT-RaquelNeural"
+  }
+ },
+ "qu": {
+  "eigen": "Runasimi",
+  "google": "qu",
+  "heygen": "Quechua",
+  "name": "Quechua",
+  "stimmen": null
+ },
+ "rn": {
+  "eigen": "Ikirundi",
+  "google": "rn",
+  "heygen": "Rundi",
+  "name": "Rundi",
+  "stimmen": null
+ },
+ "ro": {
+  "eigen": "Română",
+  "google": "ro",
+  "heygen": "Romanian",
+  "name": "Rumänisch",
+  "stimmen": {
+   "m": "ro-RO-EmilNeural",
+   "w": "ro-RO-AlinaNeural"
+  }
+ },
+ "rom": {
+  "eigen": "Romani",
+  "google": "rom",
+  "heygen": "Romani",
+  "name": "Romani",
+  "stimmen": null
+ },
+ "ru": {
+  "eigen": "Русский",
+  "google": "ru",
+  "heygen": "Russian",
+  "name": "Russisch",
+  "stimmen": {
+   "m": "ru-RU-DmitryNeural",
+   "w": "ru-RU-SvetlanaNeural"
+  }
+ },
+ "rw": {
+  "eigen": "Ikinyarwanda",
+  "google": "rw",
+  "heygen": "Kinyarwanda",
+  "name": "Kinyarwanda",
+  "stimmen": null
+ },
+ "sa": {
+  "eigen": "संस्कृत भाषा",
+  "google": "sa",
+  "heygen": "Sanskrit",
+  "name": "Sanskrit",
+  "stimmen": null
+ },
+ "scn": {
+  "eigen": "Sicilianu",
+  "google": "scn",
+  "heygen": "Sicilian",
+  "name": "Sizilianisch",
+  "stimmen": null
+ },
+ "sd": {
+  "eigen": "سنڌي",
+  "google": "sd",
+  "heygen": "Sindhi",
+  "name": "Sindhi",
+  "stimmen": null
+ },
+ "sg": {
+  "eigen": "Sängö",
+  "google": "sg",
+  "heygen": "Sango",
+  "name": "Sango",
+  "stimmen": null
+ },
+ "shn": {
+  "eigen": "တႆး",
+  "google": "shn",
+  "heygen": "Shan",
+  "name": "Schan",
+  "stimmen": null
+ },
+ "si": {
+  "eigen": "සිංහල",
+  "google": "si",
+  "heygen": "Sinhala (Sinhalese)",
+  "name": "Singhalesisch",
+  "stimmen": {
+   "m": "si-LK-SameeraNeural",
+   "w": "si-LK-ThiliniNeural"
+  }
+ },
+ "sk": {
+  "eigen": "Slovenčina",
+  "google": "sk",
+  "heygen": "Slovak",
+  "name": "Slowakisch",
+  "stimmen": {
+   "m": "sk-SK-LukasNeural",
+   "w": "sk-SK-ViktoriaNeural"
+  }
+ },
+ "sl": {
+  "eigen": "Slovenščina",
+  "google": "sl",
+  "heygen": "Slovenian",
+  "name": "Slowenisch",
+  "stimmen": {
+   "m": "sl-SI-RokNeural",
+   "w": "sl-SI-PetraNeural"
+  }
+ },
+ "sm": {
+  "eigen": "Samoan",
+  "google": "sm",
+  "heygen": "Samoan",
+  "name": "Samoanisch",
+  "stimmen": null
+ },
+ "sn": {
+  "eigen": "ChiShona",
+  "google": "sn",
+  "heygen": "Shona",
+  "name": "Shona",
+  "stimmen": null
+ },
+ "so": {
+  "eigen": "Soomaali",
+  "google": "so",
+  "heygen": "Somali",
+  "name": "Somali",
+  "stimmen": {
+   "m": "so-SO-MuuseNeural",
+   "w": "so-SO-UbaxNeural"
+  }
+ },
+ "sq": {
+  "eigen": "Shqip",
+  "google": "sq",
+  "heygen": "Albanian",
+  "name": "Albanisch",
+  "stimmen": {
+   "m": "sq-AL-IlirNeural",
+   "w": "sq-AL-AnilaNeural"
+  }
+ },
+ "sr": {
+  "eigen": "Српски",
+  "google": "sr",
+  "heygen": "Serbian",
+  "name": "Serbisch",
+  "stimmen": {
+   "m": "sr-RS-NicholasNeural",
+   "w": "sr-RS-SophieNeural"
+  }
+ },
+ "ss": {
+  "eigen": "SiSwati",
+  "google": "ss",
+  "heygen": "Swati",
+  "name": "Swazi",
+  "stimmen": null
+ },
+ "st": {
+  "eigen": "Sesotho",
+  "google": "st",
+  "heygen": "Sesotho",
+  "name": "Süd-Sotho",
+  "stimmen": null
+ },
+ "su": {
+  "eigen": "Basa Sunda",
+  "google": "su",
+  "heygen": "Sundanese",
+  "name": "Sundanesisch",
+  "stimmen": {
+   "m": "su-ID-JajangNeural",
+   "w": "su-ID-TutiNeural"
+  }
+ },
+ "sv": {
+  "eigen": "Svenska",
+  "google": "sv",
+  "heygen": "Swedish",
+  "name": "Schwedisch",
+  "stimmen": {
+   "m": "sv-SE-MattiasNeural",
+   "w": "sv-SE-SofieNeural"
+  }
+ },
+ "sw": {
+  "eigen": "Kiswahili",
+  "google": "sw",
+  "heygen": "Swahili",
+  "name": "Suaheli",
+  "stimmen": {
+   "m": "sw-KE-RafikiNeural",
+   "w": "sw-KE-ZuriNeural"
+  }
+ },
+ "szl": {
+  "eigen": "Ślōnski",
+  "google": "szl",
+  "heygen": "Silesian",
+  "name": "Schlesisch (Wasserpolnisch)",
+  "stimmen": null
+ },
+ "ta": {
+  "eigen": "தமிழ்",
+  "google": "ta",
+  "heygen": "Tamil",
+  "name": "Tamil",
+  "stimmen": {
+   "m": "ta-IN-ValluvarNeural",
+   "w": "ta-IN-PallaviNeural"
+  }
+ },
+ "te": {
+  "eigen": "తెలుగు",
+  "google": "te",
+  "heygen": "Telugu",
+  "name": "Telugu",
+  "stimmen": {
+   "m": "te-IN-MohanNeural",
+   "w": "te-IN-ShrutiNeural"
+  }
+ },
+ "tet": {
+  "eigen": "Tetum",
+  "google": "tet",
+  "heygen": "Tetum",
+  "name": "Tetum",
+  "stimmen": null
+ },
+ "tg": {
+  "eigen": "Тоҷикӣ",
+  "google": "tg",
+  "heygen": "Tajik",
+  "name": "Tadschikisch",
+  "stimmen": null
+ },
+ "th": {
+  "eigen": "ไทย",
+  "google": "th",
+  "heygen": "Thai",
+  "name": "Thailändisch",
+  "stimmen": {
+   "m": "th-TH-NiwatNeural",
+   "w": "th-TH-PremwadeeNeural"
+  }
+ },
+ "ti": {
+  "eigen": "ትግርኛ",
+  "google": "ti",
+  "heygen": "Tigrinya",
+  "name": "Tigrinya",
+  "stimmen": null
+ },
+ "tk": {
+  "eigen": "Türkmen dili",
+  "google": "tk",
+  "heygen": "Turkmen",
+  "name": "Turkmenisch",
+  "stimmen": null
+ },
+ "tn": {
+  "eigen": "Setswana",
+  "google": "tn",
+  "heygen": "Tswana",
+  "name": "Tswana",
+  "stimmen": null
+ },
+ "tr": {
+  "eigen": "Türkçe",
+  "google": "tr",
+  "heygen": "Turkish",
+  "name": "Türkisch",
+  "stimmen": {
+   "m": "tr-TR-AhmetNeural",
+   "w": "tr-TR-EmelNeural"
+  }
+ },
+ "ts": {
+  "eigen": "Xitsonga",
+  "google": "ts",
+  "heygen": "Tsonga",
+  "name": "Tsonga",
+  "stimmen": null
+ },
+ "tt": {
+  "eigen": "Татар",
+  "google": "tt",
+  "heygen": "Tatar",
+  "name": "Tatarisch",
+  "stimmen": null
+ },
+ "ug": {
+  "eigen": "ئۇيغۇرچە",
+  "google": "ug",
+  "heygen": "Uyghur",
+  "name": "Uigurisch",
+  "stimmen": null
+ },
+ "uk": {
+  "eigen": "Українська",
+  "google": "uk",
+  "heygen": "Ukrainian",
+  "name": "Ukrainisch",
+  "stimmen": {
+   "m": "uk-UA-OstapNeural",
+   "w": "uk-UA-PolinaNeural"
+  }
+ },
+ "ur": {
+  "eigen": "اردو",
+  "google": "ur",
+  "heygen": "Urdu",
+  "name": "Urdu",
+  "stimmen": {
+   "m": "ur-IN-SalmanNeural",
+   "w": "ur-IN-GulNeural"
+  }
+ },
+ "uz": {
+  "eigen": "O‘zbek",
+  "google": "uz",
+  "heygen": "Uzbek",
+  "name": "Usbekisch",
+  "stimmen": {
+   "m": "uz-UZ-SardorNeural",
+   "w": "uz-UZ-MadinaNeural"
+  }
+ },
+ "vi": {
+  "eigen": "Tiếng Việt",
+  "google": "vi",
+  "heygen": "Vietnamese",
+  "name": "Vietnamesisch",
+  "stimmen": {
+   "m": "vi-VN-NamMinhNeural",
+   "w": "vi-VN-HoaiMyNeural"
+  }
+ },
+ "xh": {
+  "eigen": "IsiXhosa",
+  "google": "xh",
+  "heygen": "Xhosa",
+  "name": "Xhosa",
+  "stimmen": null
+ },
+ "yi": {
+  "eigen": "ייִדיש",
+  "google": "yi",
+  "heygen": "Yiddish",
+  "name": "Jiddisch",
+  "stimmen": null
+ },
+ "yo": {
+  "eigen": "Èdè Yorùbá",
+  "google": "yo",
+  "heygen": "Yoruba",
+  "name": "Yoruba",
+  "stimmen": null
+ },
+ "yua": {
+  "eigen": "Yucatec Maya",
+  "google": "yua",
+  "heygen": "Yucatec Maya",
+  "name": "Yucatec Maya",
+  "stimmen": null
+ },
+ "yue": {
+  "eigen": "粵語",
+  "google": "yue",
+  "heygen": "Cantonese",
+  "name": "Kantonesisch",
+  "stimmen": {
+   "m": "zh-HK-WanLungNeural",
+   "w": "zh-HK-HiuGaaiNeural"
+  }
+ },
+ "zh": {
+  "eigen": "简体中文",
+  "google": "zh-CN",
+  "heygen": "Chinese (Simplified)",
+  "name": "Chinesisch (vereinfacht)",
+  "stimmen": {
+   "m": "zh-CN-YunxiNeural",
+   "w": "zh-CN-XiaoxiaoNeural"
+  }
+ },
+ "zh-tw": {
+  "eigen": "繁體中文",
+  "google": "zh-TW",
+  "heygen": "Chinese (Traditional)",
+  "name": "Chinesisch (traditionell)",
+  "stimmen": {
+   "m": "zh-TW-YunJheNeural",
+   "w": "zh-TW-HsiaoChenNeural"
+  }
+ },
+ "zu": {
+  "eigen": "IsiZulu",
+  "google": "zu",
+  "heygen": "Zulu",
+  "name": "Zulu",
+  "stimmen": {
+   "m": "zu-ZA-ThembaNeural",
+   "w": "zu-ZA-ThandoNeural"
+  }
+ }
+}
